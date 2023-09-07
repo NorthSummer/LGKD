@@ -5,17 +5,6 @@
 A standard style for README files
 
 
-
-
-## Table of Contents
-
-- [Background](#background)
-- [Install](#install)
-- [Checkpoints](#checkpoints)
-- [Usage](#usage)
-	- [Inference](#inference)
-- [Cite Our Work](#cite)
-
 ## Background
 
 3D detection is a core technology in autonomous intelligent vehicles, ensuring their perception capability during automated driving. In recent years, many intelligent vehicle manufacturers have adopted surround-view cameras for scene perception, with some even discarding LiDAR and relying solely on surround-view cameras, as demonstrated by Tesla. Our proposed method introduces a novel knowledge distillation approach to multi-view BEV detection, utilizing point cloud information as guidance for the process.

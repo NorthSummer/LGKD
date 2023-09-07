@@ -659,7 +659,16 @@ class BaseLSSFPN(nn.Module):
                     geom_xyz[0,3,:,:,:,:].unsqueeze(0).contiguous(), depth, depth_feature[3, self.depth_channels:(
                         self.depth_channels + self.output_channels)].contiguous(),
                     self.voxel_num.cuda())                                                
-                                              
+              
+                view_5 = voxel_pooling_inference(
+                    geom_xyz[0,4,:,:,:,:].unsqueeze(0).contiguous(), depth, depth_feature[4, self.depth_channels:(
+                        self.depth_channels + self.output_channels)].contiguous(),
+                    self.voxel_num.cuda())                                  
+                    
+                view_6 = voxel_pooling_inference(
+                    geom_xyz[0,5,:,:,:,:].unsqueeze(0).contiguous(), depth, depth_feature[5, self.depth_channels:(
+                        self.depth_channels + self.output_channels)].contiguous(),
+                    self.voxel_num.cuda())                                               
                                               
         else:
             #print(depth_feature.shape)
@@ -695,30 +704,23 @@ class BaseLSSFPN(nn.Module):
                     geom_xyz[0,3,:,:,:,:].unsqueeze(0).contiguous(), depth, depth_feature[3, self.depth_channels:(
                         self.depth_channels + self.output_channels)].contiguous(),
                     self.voxel_num.cuda())  
-                
-                                
-            #print(geom_xyz.shape, depth_feature.shape) # torch.Size([1, 6, 112, 16, 44, 3]) torch.Size([6, 192, 16, 44])
-            #view_mask_1 = feature_map_1.detach().cpu().numpy()    
-            #np.save('tensor.npy', view_mask_1) 
-            
-                      
-            '''
-            feature_map_2 = voxel_pooling_inference(
-                geom_xyz, depth, depth_feature[1, self.depth_channels:(
-                    self.depth_channels + self.output_channels)].contiguous(),
-                self.voxel_num.cuda())                  
+             
+                view_5 = voxel_pooling_inference(
+                    geom_xyz[0,4,:,:,:,:].unsqueeze(0).contiguous(), depth, depth_feature[4, self.depth_channels:(
+                        self.depth_channels + self.output_channels)].contiguous(),
+                    self.voxel_num.cuda())                  
 
-            feature_map_3 = voxel_pooling_inference(
-                geom_xyz, depth, depth_feature[2, self.depth_channels:(
-                    self.depth_channels + self.output_channels)].contiguous(),
-                self.voxel_num.cuda()) 
-            '''
+                view_6 = voxel_pooling_inference(
+                    geom_xyz[0,5,:,:,:,:].unsqueeze(0).contiguous(), depth, depth_feature[5, self.depth_channels:(
+                        self.depth_channels + self.output_channels)].contiguous(),
+                    self.voxel_num.cuda())                                  
+
                                 
         if is_return_depth and self.teacher:
             # final_depth has to be fp32, otherwise the depth
             # loss will colapse during the traing process.
             return feature_map.contiguous(
-            ), depth_feature[:, :self.depth_channels].softmax(dim=1), [view_1, view_2, view_3, view_4], fine_depth
+            ), depth_feature[:, :self.depth_channels].softmax(dim=1), [view_1, view_2, view_3, view_4, view_5, view_6], fine_depth
         
         elif is_return_depth:
 

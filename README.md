@@ -14,7 +14,7 @@ A standard style for README files
 - [Checkpoints](#checkpoints)
 - [Usage](#usage)
 	- [Inference](#inference)
-- [License](#license)
+- [Cite Our Work](#cite)
 
 ## Background
 
@@ -87,8 +87,6 @@ $ python bevdepth/exps/nuscenes/mv/lgkd_convnext_256x704_256x256_20e_cbgs_2key.p
 
 
 
-## License
 
-[MIT](LICENSE) © Richard Littauer
 
 

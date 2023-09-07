@@ -7,7 +7,7 @@ A standard style for README files
 
 
 
-## Table of Contents
+## Contents
 
 - [Background](#background)
 - [Install](#install)

@@ -29,60 +29,7 @@ A standard style for README files
 
 
 
-## Install
 
-Please make sure that your CUDA version supports the following versions of dependencies:
-
-**Step 1:** Install PyTorch
-```sh
-$ pip install torch==2.0.0 
-```
-
-**Step 2:** Install OpenMMLab-dependencies
-```sh
-$ pip install mmcv==2.0.0rc1
-$ pip install mmdet==3.0.0rc3
-$ pip install mmcls==1.0.0rc3
-$ pip install mmsegmentatio==1.0.0rc0
-$ pip install mmdet3d==1.1.0rc2
-$ pip install mmengine==0.8.4
-```
-
-**Step 3:** Install other dependencies
-```sh
-$ pip install -r requirements.txt
-```
-
-**Step 4:** Build the codebase
-```sh
-$ cd ../LGKD
-$ python setup.py develop
-$ mkdir ./data
-$ ln -s <your source path of nuscenes dataset> <./data/nuScenes>
-$ python scripts/gen_info.py
-```
-
-
-
-## Checkpoints
-
-
-| Student Type | Input Size  |mAP  | NDS | mATE | checkpoint|
-| :------------:|:---------------:|:---------------:|:---------------:|:-----:|:-----:|
-| Res-18     | 256x704 |0.305 | 0.435 | 0.711 |[Google Drive](https://drive.google.com/file/d/10YJ7SrmmHtbQ86ST3aBWqtNuLx5YFcjt/view?usp=drive_link) |
-| ConvNeXt      |256x704 |0.372 |   0.485 | 0.616  |[Google Drive](https://drive.google.com/file/d/1m36jZ5DUAUxAxbCFXWvUfH29PDp1wDDR/view?usp=drive_link) |
-| ConvNeXt-CBGS      |256x704 |0.386 |   0.502| 0.586 |[Google Drive](https://drive.google.com/file/d/1vTgzdDUk614HmhHvyiI-LHNe6U6VF4M3/view?usp=drive_link) |
-
-## Usage
-
-
-
-### Inference
-Evaluate the performance of ConvNeXt student model on nuScenes Val set:
-```sh
-$ python bevdepth/exps/nuscenes/mv/lgkd_convnext_256x704_256x256_20e_cbgs_2key.py -e --gpus 1 -b 4 --ckpt_path <Your checkpoint path>
-
-```
 
 
 

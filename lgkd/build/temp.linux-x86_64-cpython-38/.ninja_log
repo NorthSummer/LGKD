@@ -1,0 +1,12 @@
+# ninja log v5
+1	693	1692869191	/home/user/BEVDepth/build/temp.linux-x86_64-cpython-38/bevdepth/ops/voxel_pooling_train/src/voxel_pooling_train_forward_cuda.o	eb31141c480997ea
+0	18050	1692869209	/home/user/BEVDepth/build/temp.linux-x86_64-cpython-38/bevdepth/ops/voxel_pooling_train/src/voxel_pooling_train_forward.o	5ab008ded7ade00d
+1	693	1692869210	/home/user/BEVDepth/build/temp.linux-x86_64-cpython-38/bevdepth/ops/voxel_pooling_inference/src/voxel_pooling_inference_forward_cuda.o	344473075399f0be
+0	18140	1692869228	/home/user/BEVDepth/build/temp.linux-x86_64-cpython-38/bevdepth/ops/voxel_pooling_inference/src/voxel_pooling_inference_forward.o	da4917641a25446b
+2	17343	1692875363	/home/user/BEVDepth/build/temp.linux-x86_64-cpython-38/bevdepth/ops/voxel_pooling_train/src/voxel_pooling_train_forward.o	5ab008ded7ade00d
+2	17410	1692875381	/home/user/BEVDepth/build/temp.linux-x86_64-cpython-38/bevdepth/ops/voxel_pooling_inference/src/voxel_pooling_inference_forward.o	da4917641a25446b
+8	686	1692880126	/home/user/BEVDepth/build/temp.linux-x86_64-cpython-38/bevdepth/ops/voxel_pooling_train/src/voxel_pooling_train_forward_cuda.o	f8c7762a0e662ee3
+8	17979	1692880144	/home/user/BEVDepth/build/temp.linux-x86_64-cpython-38/bevdepth/ops/voxel_pooling_train/src/voxel_pooling_train_forward.o	f44b6a5e3faa819e
+8	698	1692880145	/home/user/BEVDepth/build/temp.linux-x86_64-cpython-38/bevdepth/ops/voxel_pooling_inference/src/voxel_pooling_inference_forward_cuda.o	ae932c4c2e018112
+8	17948	1692880162	/home/user/BEVDepth/build/temp.linux-x86_64-cpython-38/bevdepth/ops/voxel_pooling_inference/src/voxel_pooling_inference_forward.o	3e0050cc2543657e
+2	677	1692887360	/home/user/BEVDepth/build/temp.linux-x86_64-cpython-38/bevdepth/ops/voxel_pooling_train/src/voxel_pooling_train_forward_cuda.o	7ecfc9eb6703accc

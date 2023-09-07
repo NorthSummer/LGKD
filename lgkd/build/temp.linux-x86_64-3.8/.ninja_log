@@ -1,0 +1,17 @@
+# ninja log v5
+0	690	1692877656	/home/user/BEVDepth/build/temp.linux-x86_64-3.8/bevdepth/ops/voxel_pooling_train/src/voxel_pooling_train_forward_cuda.o	59a2571e2bf7f10c
+0	19209	1692877674	/home/user/BEVDepth/build/temp.linux-x86_64-3.8/bevdepth/ops/voxel_pooling_train/src/voxel_pooling_train_forward.o	d2c3d474df8e4b29
+1	699	1692877676	/home/user/BEVDepth/build/temp.linux-x86_64-3.8/bevdepth/ops/voxel_pooling_inference/src/voxel_pooling_inference_forward_cuda.o	efea8cd3096f9ba4
+0	19279	1692877694	/home/user/BEVDepth/build/temp.linux-x86_64-3.8/bevdepth/ops/voxel_pooling_inference/src/voxel_pooling_inference_forward.o	8f4dbc72e3decaef
+1	684	1692890139686603746	/home/user/BEVDepth/build/temp.linux-x86_64-3.8/bevdepth/ops/voxel_pooling_train/src/voxel_pooling_train_forward_cuda.o	46b5583021651539
+0	17937	1692890156926363622	/home/user/BEVDepth/build/temp.linux-x86_64-3.8/bevdepth/ops/voxel_pooling_train/src/voxel_pooling_train_forward.o	42930a457afc266e
+2	695	1692890158234342850	/home/user/BEVDepth/build/temp.linux-x86_64-3.8/bevdepth/ops/voxel_pooling_inference/src/voxel_pooling_inference_forward_cuda.o	fbf8ad5387c4f7f3
+1	17941	1692890175470069820	/home/user/BEVDepth/build/temp.linux-x86_64-3.8/bevdepth/ops/voxel_pooling_inference/src/voxel_pooling_inference_forward.o	a523da5af88b4cb0
+5	955	1692892880304317229	/home/user/BEVDepth/build/temp.linux-x86_64-3.8/bevdepth/ops/voxel_pooling_train/src/voxel_pooling_train_forward_cuda.o	6b9930d47e44a0fc
+4	25126	1692892904444153537	/home/user/BEVDepth/build/temp.linux-x86_64-3.8/bevdepth/ops/voxel_pooling_train/src/voxel_pooling_train_forward.o	3e793bb81c2d452d
+10	976	1692892906136141869	/home/user/BEVDepth/build/temp.linux-x86_64-3.8/bevdepth/ops/voxel_pooling_inference/src/voxel_pooling_inference_forward_cuda.o	76e6fee18e18c8dc
+9	25025	1692892930151973574	/home/user/BEVDepth/build/temp.linux-x86_64-3.8/bevdepth/ops/voxel_pooling_inference/src/voxel_pooling_inference_forward.o	25930da898409a8e
+39	1157	1693402950145262924	/home/user/BEVDepth/build/temp.linux-x86_64-3.8/bevdepth/ops/voxel_pooling_train/src/voxel_pooling_train_forward_cuda.o	b01966f8087e2942
+38	31414	1693402980372046058	/home/user/BEVDepth/build/temp.linux-x86_64-3.8/bevdepth/ops/voxel_pooling_train/src/voxel_pooling_train_forward.o	5191a54fb6b84a87
+20	992	1693402982095977927	/home/user/BEVDepth/build/temp.linux-x86_64-3.8/bevdepth/ops/voxel_pooling_inference/src/voxel_pooling_inference_forward_cuda.o	528f358112397d84
+20	25023	1693403006095043285	/home/user/BEVDepth/build/temp.linux-x86_64-3.8/bevdepth/ops/voxel_pooling_inference/src/voxel_pooling_inference_forward.o	6e85234bd163004c

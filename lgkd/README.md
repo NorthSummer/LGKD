@@ -77,7 +77,7 @@ $ python scripts/gen_info.py
 ## Usage
 
 ### Train
-The training codes will be updated in few days
+The training codes will be updated in few days.
 ### Inference
 To evaluate the performance of distilled model on nuScenes Val set:
 

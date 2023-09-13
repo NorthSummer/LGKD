@@ -68,7 +68,7 @@ $ python scripts/gen_info.py
 
 
 | Student Type | Input Size  |mAP  | NDS | mATE | checkpoint_google| checkpoint_baidu(soon)|
-| :------------:|:---------------:|:---------------:|:---------------:|:-----:|:-----:|
+| :------------:|:---------------:|:---------------:|:---------------:|:-----:|:-----:|:-----:|
 | Res-18     | 256x704 |0.305 | 0.435 | 0.711 |[Google Drive](https://drive.google.com/file/d/10YJ7SrmmHtbQ86ST3aBWqtNuLx5YFcjt/view?usp=drive_link) |[Baidu C-Disk]() |
 | Res-50     | 256x704 |0.340 | 0.465 | 0.64 |[Google Drive](https://drive.google.com/file/d/1EQt_kj54PhxRQGj0tzWToarckFelP4Je/view?usp=sharing) |[Baidu C-Disk]() |
 | ConvNeXt      |256x704 |0.372 |   0.485 | 0.616  |[Google Drive](https://drive.google.com/file/d/1m36jZ5DUAUxAxbCFXWvUfH29PDp1wDDR/view?usp=drive_link) |[Baidu C-Disk]() |

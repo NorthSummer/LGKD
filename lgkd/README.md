@@ -87,6 +87,16 @@ $ python <exp_name> -e --gpus 1 -b 4 --ckpt_path <Your checkpoint path>
 ```
 You may modify <exp_name> as bevdepth/exps/nuscenes/mv/lgkd_convnext_256x704_256x256_20e_cbgs_2key.py
 
-
+## Reference
+For more details, please refer to our paper:
+```
+@article{li2023bev,
+  title={BEV-LGKD: A Unified LiDAR-Guided Knowledge Distillation Framework for Multi-View BEV 3D Object Detection},
+  author={Li, Jianing and Lu, Ming and Liu, Jiaming and Guo, Yandong and Du, Yuan and Du, Li and Zhang, Shanghang},
+  journal={IEEE Transactions on Intelligent Vehicles},
+  year={2023},
+  publisher={IEEE}
+}
+```
 
 
